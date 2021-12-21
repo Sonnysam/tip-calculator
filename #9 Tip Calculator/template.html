@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="template.css">
+  <!-- <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/css/all.min.css">
+    <link rel="stylesheet" href="fonts/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,500&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="calc">
+            <h2>Tip Calculator</h2>
+            <form action="">
+                <div>
+                    <label for="">Bill</label>
+                    <input type="text" placeholder="$" class="bill">
+                </div>
+                <div>
+                    <label for="">Rate Service</label>
+                   <select name="" class="rate">
+                       <option disabled selected value ="0">
+                           -- Select an option --
+                       </option>  
+                       <option value="0.15">15% - Execellent</option>
+                       <option value="0.10">10% - Good</option>
+                       <option value="0.05">5% - Fair</option>    
+                   </select>
+                </div>
+                <button class="btn" type="button">Calculate</button>
+                <p class="error">Please enter bill and rate service.</p>
+            </form>
+
+            <div class="result">
+                <p class="tip">Tip Amount: $0</p>
+                <p class="total">Total Amount: $0</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+    
+    <script src="template.js"></script>
+</body>
+</html>
